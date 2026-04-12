@@ -1059,13 +1059,12 @@
     white-space: normal;
   }
 
-  [data-slot="question-option"][data-custom="true"][data-picked="true"] [data-slot="question-custom-input"]:focus-visible {
+  [data-slot="question-option"][data-custom="true"][data-picked="true"]
+    [data-slot="question-custom-input"]:focus-visible {
     outline: none;
     outline-offset: 0;
     border-radius: 0;
   }
-  }
-
   [data-slot="question-custom"] {
     display: flex;
     flex-direction: column;
